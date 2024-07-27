@@ -23,6 +23,8 @@ renderer.setSize(w,h);
 
 document.body.appendChild(renderer.domElement)
 
+
+
 const loader = new THREE.TextureLoader();
 const geometry = new THREE.IcosahedronGeometry(1,12);
 const material = new THREE.MeshBasicMaterial({
